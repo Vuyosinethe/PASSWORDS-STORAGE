@@ -6,31 +6,31 @@ PASSWORD STORAGE is a password management application that helps users store and
 
 The project is being developed incrementally, starting with the frontend user interface and expanding toward full backend and database integration.
 
-🎯 Objective
+Objective
+  
+  To provide a simple, secure, and user-friendly platform where individuals can safely store and access their passwords.
 
-To provide a simple, secure, and user-friendly platform where individuals can safely store and access their passwords.
+Current Features
 
-✨ Current Features
-
-Login screen (UI only)
-
-Dashboard displaying saved password entries
-
-Add Password screen
-
-Mock data storage
-
-Basic navigation between pages
+   Login screen (UI only)
+   
+   Dashboard displaying saved password entries
+   
+   Add Password screen
+   
+   Mock data storage
+   
+   Basic navigation between pages
 
 🛠 Tech Stack
-
-Frontend: (e.g. React / Vue / HTML, CSS, JavaScript)
-
-Styling: (e.g. CSS / Tailwind / Bootstrap)
-
-Backend: (Planned)
-
-Database: (Planned)
+   
+   Frontend: (e.g. React / Vue / HTML, CSS, JavaScript)
+   
+   Styling: (e.g. CSS / Tailwind / Bootstrap)
+   
+   Backend: (Planned)
+   
+   Database: (Planned)
 
 src/
  ├── pages/
