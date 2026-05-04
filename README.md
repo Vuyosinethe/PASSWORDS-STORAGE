@@ -55,8 +55,8 @@ Installation
 
 Team
 
-Member 1:
+Member 1: Vuyo
 
-Member 2
+Member 2: Thabo
 
-Member 3
+Member 3: Tau
