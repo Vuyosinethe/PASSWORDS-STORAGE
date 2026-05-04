@@ -55,7 +55,7 @@ npm run dev
 
 Team
 
-Member 1:Thabo Dube
+Member 1:Thabo Du
 
 Member 2: Tau
 
