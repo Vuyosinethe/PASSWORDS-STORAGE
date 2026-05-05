@@ -55,8 +55,8 @@ npm run dev
 
 Team
 
-Member 1: Vuyo
+Member 1: Vuyo Sinethe
 
 Member 2: Thabo Dube
 
-Member 3: Tau
+Member 3: Tau Morapeli
