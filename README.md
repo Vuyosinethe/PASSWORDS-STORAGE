@@ -1,75 +1,62 @@
-# React + TypeScript + Vite
+# PASSWORDS-STORER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PASSWORD STORAGE
 
-Currently, two official plugins are available:
+PASSWORD STORAGE is a password management application that helps users store and manage login credentials for different websites and applications in one central place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project is being developed incrementally, starting with the frontend user interface and expanding toward full backend and database integration.
 
-## React Compiler
+Objective
+  
+  To provide a simple, secure, and user-friendly platform where individuals can safely store and access their passwords.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Current Features
 
-Note: This will impact Vite dev & build performances.
+   Login screen (UI only)
+   
+   Dashboard displaying saved password entries
+   
+   Add Password screen
+   
+   Mock data storage
+   
+   Basic navigation between pages
 
-## Expanding the ESLint configuration
+🛠 Tech Stack
+   
+   Frontend: (e.g. React / Vue / HTML, CSS, JavaScript)
+   
+   Styling: (e.g. CSS / Tailwind / Bootstrap)
+   
+   Backend: (Planned)
+   
+   Database: (Planned)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+src/
+ ├── pages/
+ │   ├── Login
+ │   ├── Dashboard
+ │   └── AddPassword
+ ├── components/
+ ├── data/
+ │   └── mockPasswords.js
+ └── App.js
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Getting Started
+Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Node.js installed
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Installation
+  git clone <repository-url>
+  cd password-storage
+  npm install
+  npm run dev
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Team
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Member 1: Vuyo Sinethe
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Member 2: Thabo Dube
+
+Member 3: Tau
