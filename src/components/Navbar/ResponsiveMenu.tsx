@@ -16,7 +16,7 @@ const ResponsiveMenu = ({ open }: ResponsiveMenuProps) => {
                 transition={{ duration: 0.3 }}
                 className="absolute top-20 left-0 w-full h-screen z-20"
             >
-              <div className="text-xl font-semibold uppercase bg-primary text-white py-10 mx-6 rounded-3xl">
+              <div className="text-xl font-semibold uppercase bg-primary text-white py-10 rounded-3xl">
                 <ul className="flex flex-col items-center gap-6">
                   {NavbarMenu.map((item) => (
                     <li key={item.id}>

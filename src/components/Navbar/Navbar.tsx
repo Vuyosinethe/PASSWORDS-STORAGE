@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
     <nav>
-      <div className="container flex justify-between h-15 items-center py-2 px-6 border border-gray-300 relative"> 
+      <div className="container flex justify-between h-15 items-center py-2 px-6 border border-gray-300  relative"> 
         {/* Logo Section */}
         <div className="text-2xl flex items-center gap-2 font-bold uppercase p-4 ">
           <FaDumbbell />
