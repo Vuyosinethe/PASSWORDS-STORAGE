@@ -1,12 +1,9 @@
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-
+import Login from "./components/Login/Login"
 
 const App = () => {
   return (
     <div className="overflow-x-hidden">
-      <Navbar />
-      <Hero />
+     <Login />
     </div>
   )
 }

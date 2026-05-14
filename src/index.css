@@ -4,8 +4,15 @@
   --color-primary: #4f46e5;
 }
 
+/* Custom clip-path utility */
+@layer utilities {
+  .clip-hero {
+    clip-path: polygon(52% 6%, 80% 18%, 94% 38%, 93% 68%, 80% 85%, 55% 96%, 28% 85%, 12% 65%, 14% 35%, 25% 20%);
+    }
+}
+
 @layer base {
   body {
     font-family: system-ui, sans-serif;
   }
-}  
+}
