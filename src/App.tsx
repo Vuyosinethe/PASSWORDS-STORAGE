@@ -1,9 +1,9 @@
-import Login from "./components/Login/Login"
+import Signup from "./components/SignUp/Signup"
 
 const App = () => {
   return (
     <div className="overflow-x-hidden">
-     <Login />
+     <Signup />
     </div>
   )
 }

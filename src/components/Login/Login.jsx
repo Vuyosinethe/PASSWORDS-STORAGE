@@ -15,6 +15,7 @@ const Login = () => {
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState("");
     const [showPassword, setShowPassword] = React.useState(false);
+    
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
     }
@@ -44,7 +45,7 @@ const Login = () => {
         }
 
 
-        
+
         alert("Login successful!");
     }
 
@@ -65,7 +66,7 @@ const Login = () => {
                 <input 
                 type="email" 
                 placeholder="Email account" 
-                className="w-full p-2 outline-none rounded-xl text-sm md:text-base" 
+                className="w-full outline-none rounded-xl text-sm md:text-base" 
                 value={email}
                 onChange={(e) => {
                     setEmail(e.target.value);
@@ -90,7 +91,7 @@ const Login = () => {
                 <input 
                 type={showPassword ? "text" : "password"} 
                 placeholder="Password " 
-                className="w-full p-2 outline-none rounded-xl text-sm md:text-base" 
+                className="w-full outline-none rounded-xl text-sm md:text-base" 
                 value={password}
                 onChange={(e) => {
                     setPassword(e.target.value);
